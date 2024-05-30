@@ -27,7 +27,13 @@ body {
 }
 a {
     text-decoration: none;
-    color: #000;
+    color: #ffffff;
+    font: size 5px;
+}
+d {
+    text-decoration: none;
+    color: #000000;
+    font: size 5px;
 }
 
 /* -----------------------------------------------------------------------
@@ -40,7 +46,7 @@ header 영역 - 로고, 메인메뉴
     left: 0;
     width: 100%;
     height: 80px;
-    background-color: #675472;
+    background-color: #71dbe6;
     z-index: 10000;
 }
 #logo {
@@ -49,6 +55,7 @@ header 영역 - 로고, 메인메뉴
     left: 40px;
     font-family: 'RixYeoljeongdo_Regular';
     font-size: 36px;
+    color: #ffffff;
 }
 #navmenu {
     display: flex;
@@ -59,15 +66,16 @@ header 영역 - 로고, 메인메뉴
 }
 /* #navmenu 요소에 포함된 a 태그 스타일 설정 */
 #navmenu a {
-    margin: 0 10px;
-    color: #000;
+    margin: 0 15px;
+    color: #ffffff;
 }
 #navmenu a:link {
     text-decoration: none;
+    
 }
 #navmenu a:hover {
     text-decoration: underline;
-    color: #c057ff;
+    color: #47a4f0;
 }
 
 
@@ -85,7 +93,8 @@ header 영역 - 로고, 메인메뉴
 }
 #featured-image {
     position: relative;
-    width: 100%;
+    width: 60%;
+    margin: 0 auto;
 }
 #featured-image img {
     width: 100%;
@@ -95,8 +104,19 @@ header 영역 - 로고, 메인메뉴
     font-family: "Pretendard-Regular";
     font-size: 24px;
     line-height: 180%;
+
+    color: #000000;
     /*background-color: blanchedalmond;*/
 }
+
+#friends {
+    display: flex;
+    justify-content: center;
+}
+#friends img {
+    width: 30%;
+}
+
 #copyright {
     padding-top: 60px;
     text-align: center;
